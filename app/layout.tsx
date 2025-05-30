@@ -6,7 +6,7 @@ const Header = dynamic(() => import("../Components/Header"));
 const Footer = dynamic(() => import("../Components/Footer"));
 const ScrollToTop = dynamic(() => import("../Components/Content/ScrollToTop"));
 import NextTopLoader from "nextjs-toploader";
-// import Script from "next/script";
+import Script from "next/script";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -42,10 +42,10 @@ export default function RootLayout({
           showSpinner={true}
           zIndex={1600}
         />
-        {/* {process.env.NODE_ENV === "production" && (
+        {process.env.NODE_ENV === "production" && (
           <>
             <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=G-NK5GJ2XP85`}
+              src={`https://www.googletagmanager.com/gtag/js?id=G-YK7RLEENZD`}
               strategy="afterInteractive"
             />
             <Script id="google-analytics" strategy="afterInteractive">
@@ -54,11 +54,11 @@ export default function RootLayout({
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
 
-              gtag('config', 'G-NK5GJ2XP85');
+              gtag('config', 'G-YK7RLEENZD');
             `}
             </Script>
           </>
-        )} */}
+        )}
       </body>
     </html>
   );
