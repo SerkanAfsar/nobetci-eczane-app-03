@@ -6,7 +6,7 @@ const Header = dynamic(() => import("../Components/Header"));
 const Footer = dynamic(() => import("../Components/Footer"));
 const ScrollToTop = dynamic(() => import("../Components/Content/ScrollToTop"));
 import NextTopLoader from "nextjs-toploader";
-import Script from "next/script";
+// import Script from "next/script";
 
 const poppins = Poppins({
   variable: "--font-poppins",
