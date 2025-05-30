@@ -30,13 +30,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     {
-      url: "https://www.nobetcieczanelerim.net",
+      url: env.SITE_NAME,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: "https://www.nobetcieczanelerim.net/nobetci-eczaneler",
+      url: `${env.SITE_NAME}/nobetci-eczaneler`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.8,

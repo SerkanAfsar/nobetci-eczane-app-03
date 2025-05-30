@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.nobetcieczanelerim.net
+Host: https://www.nobetcieczanelerim.org
 
 # Sitemaps
-Sitemap: https://www.nobetcieczanelerim.net/sitemap.xml
+Sitemap: https://www.nobetcieczanelerim.org/sitemap.xml
